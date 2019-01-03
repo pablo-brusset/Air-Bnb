@@ -1,0 +1,106 @@
+#logo {
+    width: 60px;
+    height: 40px;
+}
+
+.navbar-brand {
+    padding: 0px;
+    position: absolute;
+}
+navbar-nav{
+    color: white;
+  
+}
+
+.test {
+      position: absolute;
+    left: 50% ;
+    top: 50% ;
+    transform: translate(-50%, -50%) ;
+    transition: opacity 0.5s ease 0s ;
+    opacity: 1 ;
+    padding: 0px;
+    z-index: -1;
+}
+
+.nav-bar {
+    position: absolute;
+    padding: 0px;
+    z-index: 3;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)) !important;
+    
+}
+#blanc{
+    position: absolute;
+    top: 600px;
+    background-color: red;
+    width: 100%;
+    height: 1000px;
+}
+.title{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: 125px;
+    width: 410px;
+    height: 350px;    
+    margin-left: 241px;
+    font-weight: bold;
+}
+.bouton{
+    margin-top: 250px;
+    margin-left: 250px;
+}
+.bar{
+    color: white;
+    font-size: 16px;
+    border-bottom: 1px white solid;
+}
+.bar:hover{
+    border-bottom: 2px white solid;
+    background-color: transparent !important;
+    color:white;
+}
+.carre1 {
+    border-radius: 5px 0px 0px 5px;
+    background-color: white;
+    height: 60px;
+    width: 25%;
+    margin-left: 230px;
+    margin-top: 30px;
+    border: none;
+}
+.carre2{
+     border-radius: 5px 0px 0px 5px;
+    background-color: white;
+    height: 60px;
+    width: 25%;
+    margin-left: 500px;
+    margin-top: -60px;
+}
+
+.carre3{
+     border-radius: 5px 0px 0px 5px;
+    background-color: white;
+    height: 60px;
+    width: 25%;
+    margin-left: 700px;
+    margin-top: -60px;
+}
+
+#search{
+    margin-left: -3px;
+    margin-top: -3px;
+    border: none;
+}
+
+
+.machin{
+    color: white;
+}
+.machin:hover{
+    background-color: transparent !important;
+    border-bottom: 2px white solid;
+    color: white;
+}
